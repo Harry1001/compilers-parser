@@ -1,0 +1,10 @@
+C --> id > id
+C --> id > id
+S --> id + id ;
+C --> id > id
+S --> id + id ;
+S --> id + id ;
+S --> if C S else S
+S --> if C S else S
+S --> id + id ;
+S --> if C S else S
